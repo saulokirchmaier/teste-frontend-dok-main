@@ -5,7 +5,38 @@
 .Main {
   background-image: url('./images/carros_avenida.png');
   background-size: cover;
+  color: #E12C30;
   padding-top: 10vh;
+}
+
+/* button {
+  font-size: 30px;
+} */
+
+.FormVideo {
+  background-color: #E12C30;
+}
+
+.FormVideo form {
+  background-color: #CE282B;
+  border-radius: 24px;
+  height: 464px;
+  width: 720px;
+}
+
+.FormVideo form input {
+  border-radius: 24px;
+  font-size: 24px;
+  height: 106px;
+  width: 602px;
+}
+
+.FormVideo form input::placeholder {
+  color: #676767;
+}
+
+.FormVideo form button {
+  width: 602px;
 }
 
 @media screen and (max-width: 450px) {
@@ -43,4 +74,18 @@
     font-size: 35px;
   }
 
+  .FormVideo form {
+    height: 447px;
+    width: 349px;
+  }
+
+  .FormVideo form input {
+    height: 88px;
+    width: 304px;
+  }
+  
+  .FormVideo form button {
+    width: 304px;
+  }
 }
+
