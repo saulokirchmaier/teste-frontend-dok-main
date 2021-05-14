@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+<h1>Teste Front-End DOK Despachante</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>A ideia deste teste é ajudar a avaliar melhor as suas habilidades para a vaga de desenvolvedor, em vários níveis de experiência.</p>
 
-## Available Scripts
+<p>Este teste deve ser feito por você sozinho, no seu próprio tempo. Demore o tempo que for necessário, mas geralmente esse teste não deve levar mais do que algumas horas para ser feito.</p>
 
-In the project directory, you can run:
+<h2>Instruções de entrega</h2>
+ 
+<p>Baixe esse repositório em .zip (não clone) que contém os assets necessários para o teste, inicialize um novo repositório em seu Github, vá adicionando os commits quando achar necessário e quando terminado envie o link do repositório para o responsável do teste que entrou em contato com você.</p>
 
-### `npm start`
+<h2>Descrição do projeto</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<p>Implementar uma página HTML responsiva baseada no design do Figma no link abaixo. O design e a usabilidade devem considerar ambos casos de uso desktop e mobile.</p>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p>Link do design: <a href="https://www.figma.com/file/EKq5W5mpHcAqFvbIUd1CvM/Teste?node-id=647%3A2">Figma</a></p>
 
-### `npm test`
+<p>Ponto bônus:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p>Se souber, atender as diferentes densidades de pixels (pixel-density) dos dispositivos mobile.</p>
 
-### `npm run build`
+<h2>Implementação</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p>Você deve entregar esse projeto como uma página estática HTML, com as imagens, CSS e arquivos JS que forem necessários. Você pode usar qualquer ferramenta de compilação que achar necessário (se houver), faça tudo a mão ou use alguma biblioteca ou framework que julgar necessário, Isso é com você.</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p>Você deve usar o framework Bootstrap e preferencialmente Jquery para a validação, mas pode usar Javascript Vanilla.</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p>Você só pode usar os padrões de linguagens e bibliotecas open-source, sem qualquer código adicional de terceiros.</p>
 
-### `npm run eject`
+<p>Porém trate o código (HTML, CSS e JS) como nível de código para produção.</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p>O formulário deve seguir essas condições:</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<ol>
+  <li>Validar se o nome é composto;</li>
+  <li>Validar se o e-mail está formatado corretamente;</li>
+  <li>Alertar o usuário em caso de campos inválidos;</li>
+  <li>O submit deverá ser feito por ajax, fetch ou axios;</li>
+  <li>Evitar submit duplicado;</li>
+  <li>Preferencialmente feito com Jquery, mas podendo usar Javascript vanilla.</li>
+</ol>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p>Seu projeto DEVE:</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<ol>
+  <li>Usar apenas linguagens e bibliotecas open-source;</li>
+  <li>Ter estilos CSS e nomeclatura consistentes no seu código;</li>
+  <li>Usar marcação semântica;</li>
+  <li>Tirar máximo proveito do framework Bootstrap;</li>
+  <li>Esteja atento ao desempenho.</li>
+</ol>
 
-## Learn More
+<h2>Avaliação</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>O seu projeto vai ser avaliado pelos seguintes critérios:</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ol>
+  <li>Você preencheu os requerimentos básicos do projeto?</li>
+  <li>Você seguiu com precisão as especificações do projeto?</li>
+  <li>Qualidade do código em si, como está estruturado e como cumpre as boas práticas modernas;</li>
+  <li>Familiaridade com as bibliotecas padrão das linguagens utilizadas e outros pacotes;</li>
+  <li>Organização;</li>
+  <li>Familiaridade com git.</li>
+</ol>
 
-### Code Splitting
+<p>Vamos ler seu código, apreciar o resultado, olhar, testar. Invista o tempo necessário para fazer um desafio que demonstra o resumo das suas capacidades técnicas. Faça com carinho.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>Obrigado e boa sorte!</p>
