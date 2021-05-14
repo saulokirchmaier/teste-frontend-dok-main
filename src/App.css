@@ -9,10 +9,6 @@
   padding-top: 10vh;
 }
 
-/* button {
-  font-size: 30px;
-} */
-
 .FormVideo {
   background-color: #E12C30;
 }
@@ -37,6 +33,29 @@
 
 .FormVideo form button {
   width: 602px;
+}
+
+.reason {
+  background-color: #E12C30;
+  border-radius: 21px;
+  font-size: 30px;
+  height: 235.46px;
+  width: 674.4px;
+}
+
+.reason span {
+  height: 153px;
+  width: 153px;
+}
+
+.reason-why {
+  background-color: #E12C30;
+  color: white;
+  font-size: 60px;
+}
+
+.reason-why section {
+  width: 50vw;
 }
 
 @media screen and (max-width: 450px) {
