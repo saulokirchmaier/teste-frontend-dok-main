@@ -12,7 +12,7 @@ function Reasons() {
         <h1 className="text-center">
           Conheça TODOS os motivos para ser um Afiliado DOK Despachante
         </h1>
-        <article className="d-flex flex-wrap justify-content-center m-3 mx-sm-1">
+        <article className="d-flex flex-wrap justify-content-center m-3">
           <div className="reason bg-light d-flex align-items-center justify-content-around p-3 mb-3">
             <span className="m-2 p-4 d-flex rounded-circle">
               <img src={ percent } alt="Porcentagem" className="m-1"/>
