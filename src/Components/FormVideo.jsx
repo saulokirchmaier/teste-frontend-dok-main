@@ -9,10 +9,17 @@ function FormVideo() {
     if (!name.value.includes(' ')) {
       name.value = '';
       name.placeholder = 'Por favor informe nome e sobrenome';
-    }
+    } 
     if (!validEmail.test(email.value)) {
       email.value = '';
       email.placeholder = 'Por favor informe um e-mail válido';
+    }
+    if (name.value.includes(' ') && validEmail.test(email.value)) {
+      const body = `name:${name.value}%email:${email.value}`;
+      fetch("/signin", {
+        method: "POST",
+        body,
+      });
     }
   }
   
@@ -43,7 +50,6 @@ function FormVideo() {
             placeholder="Informe seu email"
             name="email"
           />
-          <div class="invalid-feedback">Por favor informe um e-mail válido</div>
           <button
             type="submit"
             className="rounded-pill btn btn-success btn-lg font-weight-bolder"

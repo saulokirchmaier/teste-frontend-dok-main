@@ -10,7 +10,7 @@ function Main() {
           <img src={ person } alt="Pessoa" />
         </div>
         <div className="container d-flex flex-wrap justify-content-between align-items-center mx-2 main-section-2">
-          <img src={ logoDok } alt="Dok despachante" height />
+          <img src={ logoDok } alt="Dok despachante" />
           <button type="button" className="rounded-pill btn btn-success btn-lg mx-5 font-weight-bolder">Já sou afiliado</button>
           <h1 className="display-4 font-weight-bolder my-auto">Torne-se um afiliado do maior despachante do Brasil!</h1>
         </div>
