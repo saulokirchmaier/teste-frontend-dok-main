@@ -1,6 +1,7 @@
 import Main from './Components/Main';
 import FormVideo from './Components/FormVideo';
 import Reasons from './Components/Reasons';
+import Info from './Components/Info';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Main />
       <FormVideo />
       <Reasons />
+      <Info />
     </>
   );
 }

@@ -36,7 +36,6 @@
 }
 
 .reason {
-  background-color: #E12C30;
   border-radius: 21px;
   font-size: 30px;
   height: 235.46px;
@@ -44,6 +43,7 @@
 }
 
 .reason span {
+  background-color: #E12C30;
   height: 153px;
   width: 153px;
 }
@@ -51,14 +51,47 @@
 .reason-why {
   background-color: #E12C30;
   color: white;
-  font-size: 60px;
 }
 
-.reason-why section {
+.reason-why article {
   width: 50vw;
 }
 
+.reason-why article h1, .reason-why article h2 {
+  font-size: 60px;
+}
+
+.reason-why img {
+  height: 348px;
+  width: 395px;
+}
+
+.Info {
+  font-size: 36px;
+}
+
+.Info h2 {
+  font-size: 42px;
+}
+
+.Main button, .FormVideo button, .Info button {
+  background-color: #12D01A;
+  font-size: 30px;
+}
+
+.Info button {
+  width: 834px;
+}
+
 @media screen and (max-width: 450px) {
+  .Main button, .FormVideo button, .Info button {
+    font-size: 23px;
+  }
+
+  .Main button {
+    margin: 0 auto;
+  }
+  
   .main-section {
     background-size: inherit;
     flex-wrap: wrap;
@@ -75,18 +108,18 @@
   }
 
   .main-section-2 {
-    text-align: center;
     gap: 10px;
+    justify-content: center;
+    text-align: center;
   }
 
   .main-section-2 button {
     order: 2;
-    margin: 0 auto;
   }
 
   .main-section-2 img {
+    margin: 20px auto;
     width: 30vw;
-    margin: 0 auto;
   }
   
   .main-section-2 h1 {
@@ -99,6 +132,7 @@
   }
 
   .FormVideo form input {
+    font-size: 18px;
     height: 88px;
     width: 304px;
   }
@@ -106,5 +140,83 @@
   .FormVideo form button {
     width: 304px;
   }
-}
 
+  .reason {
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 24px;
+    height: 406px;
+    margin: 0!important;
+    width: 309px;
+  }
+
+  .reason span {
+    height: 120px;
+    margin: 0!important;
+    width: 120px;
+  }
+
+  .reason span img {
+    height: 70px;
+    width: 70px;
+  }
+  .reason p {
+    margin: 0!important;
+  }
+
+  .reason-order-1 {
+    order: 1;
+  }
+
+  .reason-why {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reason-why article {
+    padding: 0;
+    width: 90vw;
+  }
+  .reason-why article h1 {
+    font-size: 30px;
+  }
+
+  .reason-why article h2 {
+    font-size: 24px;
+  }
+
+  .reason-why img {
+    width: 100vw;
+  }
+
+  .info-content {
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  .info-content article {
+    margin: 3rem 0;
+  }
+
+  .Info h2 {
+    font-size: 30px;
+    padding: 3rem;
+    margin: 0;
+  }
+
+  .Info button {
+    width: 325px;
+  }
+
+  .carrs-park {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wallet {
+    margin: 0 auto;
+    width: 285px;
+  }
+}

@@ -16,7 +16,7 @@ function FormVideo() {
           <input type="email" className="form-control" placeholder="Informe seu email" />
           <button
             type="submit"
-            className="rounded-pill btn btn-success btn-lg"
+            className="rounded-pill btn btn-success btn-lg font-weight-bolder"
           >
             Sim, quero ser um afiliado
           </button>
