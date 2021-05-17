@@ -35,6 +35,13 @@
   width: 602px;
 }
 
+.reasons {
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+}
+
 .reason {
   border-radius: 21px;
   font-size: 30px;
